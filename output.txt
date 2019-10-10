@@ -1,0 +1,481 @@
+real-classic... 
+
+	polbooks
+	 105 nodes
+	 Ground Truth: 3 communities
+		 Louvain:
+		 5 communities
+			 NMI: 0.5219160175536329 	 ARI: 0.5366179378735756 	 Modularity: 0.5267969621711283
+		 Fast Modularity:
+		 4 communities
+			 NMI: 0.530814195349456 	 ARI: 0.6378969874240916 	 Modularity: 0.5019744859395175
+		 Infomap:
+		 6 communities
+			 NMI: 0.49345409868210716 	 ARI: 0.536058639705312 	 Modularity: 0.5228479902921241
+		 Walk Trap:
+		 4 communities
+			 NMI: 0.542747619720992 	 ARI: 0.6534223868331692 	 Modularity: 0.5069724034738795
+		 Label Propagation:
+		 3 communities
+			 NMI: 0.586088583753409 	 ARI: 0.6893478175693194 	 Modularity: 0.4946215825710673
+		 Leading Eigenvector:
+		 4 communities
+			 NMI: 0.5201074651236256 	 ARI: 0.5466621716026098 	 Modularity: 0.46718445503675515
+		 Edge Betweenness:
+		 5 communities
+			 NMI: 0.5584514649262038 	 ARI: 0.6823684211657524 	 Modularity: 0.5168011271024103
+		 Spinglass:
+		 6 communities
+			 NMI: 0.46726682042560236 	 ARI: 0.3988197278117933 	 Modularity: 0.525143844385838
+	polblogs
+	 1490 nodes
+	 Ground Truth: 2 communities
+		 Louvain:
+		 277 communities
+		 Q: networkx.alg: 0.4266825050869564 	 igraph: 0.42661158381864256
+			 NMI: 0.370998241961269 	 ARI: 0.5159394684999755 	 Modularity: 0.4266825050869564
+		 Fast Modularity:
+		 278 communities
+		 Q: networkx.alg: 0.42479748638664594 	 igraph: 0.42574633038893794
+			 NMI: 0.3771097380954751 	 ARI: 0.5264367965476332 	 Modularity: 0.42479748638664594
+		 Infomap:
+		 307 communities
+		 Q: networkx.alg: 0.41777686155707167 	 igraph: 0.4192445877966796
+			 NMI: 0.3305565957223196 	 ARI: 0.4377428387858278 	 Modularity: 0.41777686155707167
+		 Walk Trap:
+		 278 communities
+		 Q: networkx.alg: 0.4255214440661604 	 igraph: 0.4254521040096658
+			 NMI: 0.369542468154183 	 ARI: 0.5121002359177761 	 Modularity: 0.4255214440661604
+		 Label Propagation:
+		 271 communities
+		 Q: networkx.alg: 0.4260452963657785 	 igraph: 0.425975322066048
+			 NMI: 0.3857919045692975 	 ARI: 0.5375842929797694 	 Modularity: 0.4260452963657785
+		 Leading Eigenvector:
+		 269 communities
+		 Q: networkx.alg: 0.4243303460255572 	 igraph: 0.4242524664329389
+			 NMI: 0.3785776860702947 	 ARI: 0.5260728493057218 	 Modularity: 0.4243303460255572
+		 Spinglass:
+error
+	karate
+	 34 nodes
+	 Ground Truth: 2 communities
+		 Louvain:
+		 4 communities
+			 NMI: 0.6021446753032743 	 ARI: 0.5131241441823687 	 Modularity: 0.4155982905982901
+		 Fast Modularity:
+		 3 communities
+			 NMI: 0.6924673268725452 	 ARI: 0.6802559028644982 	 Modularity: 0.38067061143984127
+		 Infomap:
+		 3 communities
+			 NMI: 0.6994881609814815 	 ARI: 0.7021550152558961 	 Modularity: 0.4020381328073617
+		 Walk Trap:
+		 5 communities
+			 NMI: 0.5041780325367384 	 ARI: 0.33312659896115976 	 Modularity: 0.3532215647600258
+		 Label Propagation:
+		 3 communities
+			 NMI: 0.8255181611085526 	 ARI: 0.8027463991868202 	 Modularity: 0.3990795529257048
+		 Leading Eigenvector:
+		 4 communities
+			 NMI: 0.6770918449243224 	 ARI: 0.5120890589667768 	 Modularity: 0.3934089414858639
+		 Edge Betweenness:
+		 5 communities
+			 NMI: 0.5798277763145141 	 ARI: 0.4686164968780808 	 Modularity: 0.4012984878369489
+		 Spinglass:
+		 4 communities
+			 NMI: 0.6872628843326489 	 ARI: 0.5413568683493947 	 Modularity: 0.4197896120973035
+	football
+	 115 nodes
+	 Ground Truth: 12 communities
+		 Louvain:
+		 10 communities
+			 NMI: 0.8849617336322009 	 ARI: 0.8034680514502491 	 Modularity: 0.6043460210927404
+		 Fast Modularity:
+		 6 communities
+			 NMI: 0.6977316621164371 	 ARI: 0.4740983153122245 	 Modularity: 0.5497406651426727
+		 Infomap:
+		 12 communities
+			 NMI: 0.9241952287164277 	 ARI: 0.8966500097910517 	 Modularity: 0.6005165407471025
+		 Walk Trap:
+		 10 communities
+			 NMI: 0.8873604015526299 	 ARI: 0.8154427010430405 	 Modularity: 0.6029142904284231
+		 Label Propagation:
+		 8 communities
+			 NMI: 0.8062826849749942 	 ARI: 0.520251730460629 	 Modularity: 0.5693990190781981
+		 Leading Eigenvector:
+		 8 communities
+			 NMI: 0.6986701827222616 	 ARI: 0.46405046333128475 	 Modularity: 0.49260582964533217
+		 Edge Betweenness:
+		 10 communities
+			 NMI: 0.8788884062175197 	 ARI: 0.7781023261432488 	 Modularity: 0.599629027407791
+		 Spinglass:
+		 10 communities
+			 NMI: 0.8790855014915725 	 ARI: 0.8052199361205752 	 Modularity: 0.603427903845176
+	strike
+	 24 nodes
+	 Ground Truth: 4 communities
+		 Louvain:
+		 3 communities
+			 NMI: 0.8659599890694527 	 ARI: 0.8486317977138899 	 Modularity: 0.5474376731301929
+		 Fast Modularity:
+		 4 communities
+			 NMI: 0.7704087582586153 	 ARI: 0.6646619281939129 	 Modularity: 0.5557479224376727
+		 Infomap:
+		 4 communities
+			 NMI: 0.8840698882757506 	 ARI: 0.79778985286037 	 Modularity: 0.5619806094182817
+		 Walk Trap:
+		 4 communities
+			 NMI: 0.8840698882757506 	 ARI: 0.79778985286037 	 Modularity: 0.5619806094182817
+		 Label Propagation:
+		 3 communities
+			 NMI: 0.8659599890694527 	 ARI: 0.8486317977138899 	 Modularity: 0.5474376731301929
+		 Leading Eigenvector:
+		 4 communities
+			 NMI: 0.8840698882757506 	 ARI: 0.79778985286037 	 Modularity: 0.5619806094182817
+		 Edge Betweenness:
+		 4 communities
+			 NMI: 0.8840698882757506 	 ARI: 0.79778985286037 	 Modularity: 0.5619806094182817
+		 Spinglass:
+		 4 communities
+			 NMI: 0.8840698882757506 	 ARI: 0.79778985286037 	 Modularity: 0.5619806094182817
+
+	 Averages:
+	  NMI
+		 Louvain: 0.649196131503966
+		 Fast Modularity: 0.6137063361385058
+		 Infomap: 0.6663527944756173
+		 Walk Trap: 0.6375796820480588
+		 Label Propagation: 0.6939282646951412
+		 Leading Eigenvector: 0.6317034134232509
+		 Edge Betweenness: 0.7253093839334971
+		 Spinglass: 0.7294212736313935
+	 winner: Spinglass
+	  ARI
+		 Louvain: 0.6435562799440117
+		 Fast Modularity: 0.5966699860684721
+		 Infomap: 0.6740792712796916
+		 Walk Trap: 0.6223763551231031
+		 Label Propagation: 0.6797124075820855
+		 Leading Eigenvector: 0.5693328792133526
+		 Edge Betweenness: 0.681719274261863
+		 Spinglass: 0.6357965962855332
+	 winner: Edge Betweenness
+	  Modularity
+		 Louvain: 0.5041722904158616
+		 Fast Modularity: 0.48258623426927005
+		 Infomap: 0.5010320269643883
+		 Walk Trap: 0.4901220624293542
+		 Label Propagation: 0.48731662481418836
+		 Leading Eigenvector: 0.46790203632235805
+		 Edge Betweenness: 0.519927312941358
+		 Spinglass: 0.5275854924366498
+	 winner: Spinglass
+
+
+GCN (real-node-label...) 
+
+	citeseer
+		 3327 nodes
+		 Ground Truth: 6 communities
+		 Louvain:
+		 470 communities
+			 NMI: 0.21061196197561036 	 ARI: 0.04454793063796954 	 Modularity: 0.890763749294834
+		 Fast Modularity:
+		 488 communities
+			 NMI: 0.21566609151037155 	 ARI: 0.0645374384633118 	 Modularity: 0.8736387362146069
+		 Infomap:
+		 668 communities
+			 NMI: 0.22964038664824488 	 ARI: 0.008755286659820373 	 Modularity: 0.821297242677019
+		 Walk Trap:
+		 595 communities
+			 NMI: 0.23012457791945093 	 ARI: 0.05578810986574576 	 Modularity: 0.8330388745914206
+		 Label Propagation:
+		 673 communities
+			 NMI: 0.22793113179637825 	 ARI: 0.012615560237484679 	 Modularity: 0.8115155717527279
+		 Leading Eigenvector:
+		 459 communities
+			 NMI: 0.21199473114447978 	 ARI: 0.05606067957879081 	 Modularity: 0.8541162588061361
+		 Edge Betweenness:
+		 45 communities
+			 NMI: 0.06828510421416627 	 ARI: 0.013360383479302188 	 Modularity: 0.3478838485905439
+		 Spinglass:
+error
+	cora
+		 2708 nodes
+		 Ground Truth: 7 communities
+		 Louvain:
+		 104 communities
+			 NMI: 0.20778701491345525 	 ARI: 0.0992128627244544 	 Modularity: 0.8153580585953076
+		 Fast Modularity:
+		 106 communities
+			 NMI: 0.21491856338675608 	 ARI: 0.10173899843929823 	 Modularity: 0.806871750310624
+		 Infomap:
+		 320 communities
+			 NMI: 0.2338386914924036 	 ARI: 0.01766468310027481 	 Modularity: 0.7178651730727948
+		 Walk Trap:
+		 243 communities
+			 NMI: 0.2292010806158538 	 ARI: 0.07482167926476611 	 Modularity: 0.7645671954232002
+		 Label Propagation:
+		 237 communities
+			 NMI: 0.22898724155707306 	 ARI: 0.05686135694027759 	 Modularity: 0.7456152940105322
+		 Leading Eigenvector:
+		 96 communities
+			 NMI: 0.17821063012828917 	 ARI: 0.07642744708803947 	 Modularity: 0.7318749738836168
+		 Edge Betweenness:
+		 30 communities
+			 NMI: 0.04742045887933758 	 ARI: -0.0028566352796164803 	 Modularity: 0.07740323859284913
+		 Spinglass:
+error
+	pubmed
+		 19717 nodes
+		 Ground Truth: 3 communities
+		 Louvain:
+		 38 communities
+			 NMI: 0.18101467104025973 	 ARI: 0.1021923337673639 	 Modularity: 0.7668845853928313
+		 Fast Modularity:
+		 114 communities
+			 NMI: 0.1919653150630276 	 ARI: 0.16065175789734795 	 Modularity: 0.7278024920276268
+		 Infomap:
+		 1154 communities
+			 NMI: 0.1542684466033016 	 ARI: 0.0054531779308298585 	 Modularity: 0.6443653015193634
+		 Walk Trap:
+		 792 communities
+			 NMI: 0.16399489631281433 	 ARI: 0.07318626138421735 	 Modularity: 0.7114106816738854
+		 Label Propagation:
+		 919 communities
+			 NMI: 0.17197453689007403 	 ARI: 0.08414806879407993 	 Modularity: 0.6823270049243536
+		 Leading Eigenvector:
+		 4 communities
+			 NMI: 0.13941914434786534 	 ARI: 0.02745746313386509 	 Modularity: 0.46133514195831166
+		 Spinglass:
+		 25 communities
+			 NMI: 0.15829794702220482 	 ARI: 0.09235032709416562 	 Modularity: 0.7751142843649534
+
+	 Averages:
+	  NMI
+		 Louvain: 0.1998045493097751
+		 Fast Modularity: 0.20751665665338506
+		 Infomap: 0.2059158415813167
+		 Walk Trap: 0.20777351828270638
+		 Label Propagation: 0.20963097008117512
+		 Leading Eigenvector: 0.17654150187354478
+		 Edge Betweenness: 0.05785278154675193
+		 Spinglass: 0.15829794702220482
+	 winner: Label Propagation
+	  ARI
+		 Louvain: 0.08198437570992928
+		 Fast Modularity: 0.10897606493331931
+		 Infomap: 0.010624382563641682
+		 Walk Trap: 0.06793201683824308
+		 Label Propagation: 0.051208328657280734
+		 Leading Eigenvector: 0.0533151966002318
+		 Edge Betweenness: 0.005251874099842854
+		 Spinglass: 0.09235032709416562
+	 winner: Fast Modularity
+	  Modularity
+		 Louvain: 0.8243354644276577
+		 Fast Modularity: 0.8027709928509524
+		 Infomap: 0.727842572423059
+		 Walk Trap: 0.7696722505628353
+		 Label Propagation: 0.7464859568958713
+		 Leading Eigenvector: 0.6824421248826882
+		 Edge Betweenness: 0.21264354359169652
+		 Spinglass: 0.7751142843649534
+	 winner: Louvain
+
+
+LFR (synthetic)...
+
+	 200 nodes
+	 Ground Truth: 7 communities
+		 Louvain:
+		 7 communities
+			 NMI: 1.0 	 ARI: 1.0 	 Modularity: 0.5608142065920895
+		 Fast Modularity:
+		 6 communities
+			 NMI: 0.8939249384049309 	 ARI: 0.8800428922348854 	 Modularity: 0.5439410106824255
+		 Infomap:
+		 7 communities
+			 NMI: 1.0 	 ARI: 1.0 	 Modularity: 0.5608142065920895
+		 Walk Trap:
+		 8 communities
+			 NMI: 0.9906731379063884 	 ARI: 0.9945535490812125 	 Modularity: 0.5572314386326772
+		 Label Propagation:
+		 7 communities
+			 NMI: 0.9643690417140516 	 ARI: 0.9613401670926696 	 Modularity: 0.5530904426016058
+		 Leading Eigenvector:
+		 5 communities
+			 NMI: 0.8403667632920974 	 ARI: 0.8362070868627542 	 Modularity: 0.5304787984069784
+		 Edge Betweenness:
+		 8 communities
+			 NMI: 0.9942836985370843 	 ARI: 0.9971297480503315 	 Modularity: 0.5590236744354835
+		 Spinglass:
+		 8 communities
+			 NMI: 0.9802942647828227 	 ARI: 0.9828487424902708 	 Modularity: 0.5587380297558855
+	 200 nodes
+	 Ground Truth: 2 communities
+		 Louvain:
+		 5 communities
+			 NMI: 0.4672895793956114 	 ARI: 0.2812199755831509 	 Modularity: 0.23797603428404393
+		 Fast Modularity:
+		 5 communities
+			 NMI: 0.5240651115447337 	 ARI: 0.3839357314268876 	 Modularity: 0.22674608694391482
+		 Infomap:
+		 1 communities
+			 NMI: 9.361808020607832e-16 	 ARI: 0.0 	 Modularity: -3.391014735498085e-17
+		 Walk Trap:
+		 2 communities
+			 NMI: 0.8437068984913267 	 ARI: 0.9185464292453653 	 Modularity: 0.1864599313052458
+		 Label Propagation:
+		 1 communities
+			 NMI: 9.361808020607832e-16 	 ARI: 0.0 	 Modularity: -3.391014735498085e-17
+		 Leading Eigenvector:
+		 3 communities
+			 NMI: 0.484405130322121 	 ARI: 0.36596278050139486 	 Modularity: 0.19263124241509538
+		 Edge Betweenness:
+		 37 communities
+			 NMI: 0.4725364986176302 	 ARI: 0.5893328789880586 	 Modularity: 0.1521152268021614
+		 Spinglass:
+		 4 communities
+			 NMI: 0.5101195854909165 	 ARI: 0.3384025028787884 	 Modularity: 0.2504086929417929
+	 211 nodes
+	 Ground Truth: 9 communities
+		 Louvain:
+		 9 communities
+			 NMI: 0.9999999999999999 	 ARI: 1.0 	 Modularity: 0.5683953696783617
+		 Fast Modularity:
+		 7 communities
+			 NMI: 0.8895296995102471 	 ARI: 0.8198421759009532 	 Modularity: 0.542691286584855
+		 Infomap:
+		 9 communities
+			 NMI: 0.9999999999999999 	 ARI: 1.0 	 Modularity: 0.5683953696783617
+		 Walk Trap:
+		 9 communities
+			 NMI: 0.9999999999999999 	 ARI: 1.0 	 Modularity: 0.5683953696783617
+		 Label Propagation:
+		 7 communities
+			 NMI: 0.9073921877140951 	 ARI: 0.7786815587469885 	 Modularity: 0.5292395917874662
+		 Leading Eigenvector:
+		 11 communities
+			 NMI: 0.7869539474992787 	 ARI: 0.7983132943541784 	 Modularity: 0.4691749189041651
+		 Edge Betweenness:
+		 9 communities
+			 NMI: 0.9999999999999999 	 ARI: 1.0 	 Modularity: 0.5683953696783617
+		 Spinglass:
+		 9 communities
+			 NMI: 0.9889151323471972 	 ARI: 0.9865647030203029 	 Modularity: 0.5674469801065215
+	 217 nodes
+	 Ground Truth: 10 communities
+		 Louvain:
+		 10 communities
+			 NMI: 1.0000000000000002 	 ARI: 1.0 	 Modularity: 0.7477890513483157
+		 Fast Modularity:
+		 10 communities
+			 NMI: 0.9916580161709564 	 ARI: 0.9905473698570743 	 Modularity: 0.7410015045715678
+		 Infomap:
+		 10 communities
+			 NMI: 1.0000000000000002 	 ARI: 1.0 	 Modularity: 0.7477890513483157
+		 Walk Trap:
+		 10 communities
+			 NMI: 1.0000000000000002 	 ARI: 1.0 	 Modularity: 0.7477890513483157
+		 Label Propagation:
+		 12 communities
+			 NMI: 0.9819627770429166 	 ARI: 0.9730123139090741 	 Modularity: 0.7338474595887365
+		 Leading Eigenvector:
+		 11 communities
+			 NMI: 0.8184373848530643 	 ARI: 0.7516394019440856 	 Modularity: 0.6291740287797425
+		 Edge Betweenness:
+		 10 communities
+			 NMI: 1.0000000000000002 	 ARI: 1.0 	 Modularity: 0.7477890513483157
+		 Spinglass:
+		 12 communities
+			 NMI: 0.9834622963340098 	 ARI: 0.9813515171160123 	 Modularity: 0.7424759847228011
+	 222 nodes
+	 Ground Truth: 5 communities
+		 Louvain:
+		 5 communities
+			 NMI: 1.0 	 ARI: 1.0 	 Modularity: 0.5294417056708516
+		 Fast Modularity:
+		 5 communities
+			 NMI: 0.9697808603561129 	 ARI: 0.9798627499317373 	 Modularity: 0.5243012094942876
+		 Infomap:
+		 5 communities
+			 NMI: 1.0 	 ARI: 1.0 	 Modularity: 0.5294417056708516
+		 Walk Trap:
+		 5 communities
+			 NMI: 1.0 	 ARI: 1.0 	 Modularity: 0.5294417056708516
+		 Label Propagation:
+		 5 communities
+			 NMI: 0.9856583035604612 	 ARI: 0.990964111340595 	 Modularity: 0.5284050312855294
+		 Leading Eigenvector:
+		 7 communities
+			 NMI: 0.7211154431569629 	 ARI: 0.7514757047084323 	 Modularity: 0.40964471622225773
+		 Edge Betweenness:
+		 7 communities
+			 NMI: 0.9751871804117849 	 ARI: 0.9890474191735766 	 Modularity: 0.5247296607395148
+		 Spinglass:
+		 7 communities
+			 NMI: 0.9859247336323965 	 ARI: 0.9910026324624943 	 Modularity: 0.5273760132841459
+
+	 Averages:
+	  NMI
+		 Louvain: 0.8934579158791223
+		 Fast Modularity: 0.8537917251973962
+		 Infomap: 0.8000000000000002
+		 Walk Trap: 0.966876007279543
+		 Label Propagation: 0.7678764620063051
+		 Leading Eigenvector: 0.7302557338247049
+		 Edge Betweenness: 0.8884014755133001
+		 Spinglass: 0.8897432025174685
+	 winner: Walk Trap
+	  ARI
+		 Louvain: 0.8562439951166301
+		 Fast Modularity: 0.8108461838703075
+		 Infomap: 0.8
+		 Walk Trap: 0.9826199956653155
+		 Label Propagation: 0.7407996302178654
+		 Leading Eigenvector: 0.7007196536741691
+		 Edge Betweenness: 0.9151020092423934
+		 Spinglass: 0.8560340195935737
+	 winner: Walk Trap
+	  Modularity
+		 Louvain: 0.5288832735147325
+		 Fast Modularity: 0.5157362196554102
+		 Infomap: 0.4812880666579238
+		 Walk Trap: 0.5178634993270904
+		 Label Propagation: 0.4689165050526675
+		 Leading Eigenvector: 0.4462207409456478
+		 Edge Betweenness: 0.5104105966007675
+		 Spinglass: 0.5292891401622294
+	 winner: Spinglass
+
+	 Averages:
+	  NMI
+		 Louvain: 0.6338556193126371
+		 Fast Modularity: 0.6123107905107434
+		 Infomap: 0.611500884394003
+		 Walk Trap: 0.6650460770373944
+		 Label Propagation: 0.6104716228394895
+		 Leading Eigenvector: 0.5645707878354164
+		 Edge Betweenness: 0.6780864069449083
+		 Spinglass: 0.7546108010418113
+	 winner: Spinglass
+	  ARI
+		 Louvain: 0.5918919429071753
+		 Fast Modularity: 0.5665006957302965
+		 Infomap: 0.569405346468414
+		 Walk Trap: 0.6329829080351401
+		 Label Propagation: 0.5586692409069157
+		 Leading Eigenvector: 0.5007852503260234
+		 Edge Betweenness: 0.6648082628599187
+		 Spinglass: 0.6929489531714393
+	 winner: Spinglass
+	  Modularity
+		 Louvain: 0.5867075164215514
+		 Fast Modularity: 0.5692250190904814
+		 Infomap: 0.5457790911831337
+		 Walk Trap: 0.5653034277285176
+		 Label Propagation: 0.5391368041131319
+		 Leading Eigenvector: 0.5090723277683149
+		 Edge Betweenness: 0.4597317565411511
+		 Spinglass: 0.5532244958731051
+	 winner: Louvain
